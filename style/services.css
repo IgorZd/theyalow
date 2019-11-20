@@ -1,0 +1,36 @@
+.services {
+    width: 1300px;
+    height: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.services_layer {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service_box {
+    width: 18%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.service_box p {
+    width: 212px;
+    height: 28px;
+    color: #000000;
+    font-size: 27px;
+    text-transform: uppercase;
+    margin: 0px;
+    letter-spacing: 0.27px;
+    display: flex;
+    justify-content: center;
+}
