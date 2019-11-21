@@ -123,6 +123,12 @@
     right: 15px;
     bottom: 5px;
 }
+.massages {
+    display: none;
+}
+.example_bird form {
+    display: none;
+}
 .date {
     width: 113px;
     height: 86px;

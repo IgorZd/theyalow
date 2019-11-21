@@ -1,0 +1,116 @@
+@media screen and (max-width: 640px) {
+    header {
+        width: 640px;
+        height: 390px;
+        margin: 0 auto;
+        background-image: url(../assets/Layer_20.png);
+    }
+    .header {
+        width: 100%;
+        height: 16%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .header_name {
+        width: 30%;
+        height: 100%;
+        background-image: url(../assets/Layer_26_1.png);
+        display: flex;
+    }
+    .logo {
+        width: 41px;
+        height: 41px;
+    }
+    .logo_img_1 {
+        width: 41px;
+        height: 41px;
+        position: relative;
+        z-index: 1;
+    }
+    .logo_img_2 {
+        width: 41px;
+        height: 41px;
+        position: relative;
+        z-index: 5;
+        bottom: 44px;
+        opacity: 0.5;
+        transform: rotate(45deg);
+    }
+    .logo_name {
+        width: 125px;
+        height: 21px;
+        text-shadow: 0 2px 0 rgba(0, 0, 0, 0.42);
+        color: #ffffff;
+        font-family: "Lucida Sans";
+        font-weight: 100;
+        font-size: 20px;
+        font-style: italic;
+        letter-spacing: 0.41px;
+        margin: 0px;
+    }
+    .menu_box {
+        width: 70%;
+        height: 100%;
+    }
+    .menu_layer_1 {
+        display: none;
+    }
+    .menu_layer_2 {
+        display: none;
+    }
+    .menu {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+    }
+    .menu_label p {
+        margin: 0px;
+        width: 72%;
+        height: 14px;
+        color: #9b7d08;
+        font-family: "Segoe WP";
+        font-size: 17px;
+        font-weight: 400;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-between;
+    }
+    .pointer {
+        display: none;
+    }
+    .video_text {
+        display: none;
+    }
+    .header_video {
+        width: 100%;
+        height: 75%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        top: 17px;
+    }
+    .video_box {
+        width: 86%;
+        height: 100%;
+        position: relative;
+        left: 3px;
+    }
+    .video {
+        bottom: 287px;
+    }
+    .video_layer {
+        width: 99%;
+        height: 100%;
+        background-color: #f5c506;
+        opacity: 0.11;
+        position: relative;
+        top: 5px;
+        z-index: 5;
+    }
+
+}

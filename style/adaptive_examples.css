@@ -1,0 +1,161 @@
+@media screen and (max-width: 640px) {
+    .examples {
+        width: 640px;
+        height: 605px;
+        margin: 0 auto;
+        background-image: url(../assets/Layer_3.png);
+    }
+    .examples_layer {
+        width: 100%;
+        height: 42%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        z-index: 10;
+        bottom: 255px;
+        background-color: white;
+    }
+    .examples_layer_orange {
+        width: 100%;
+        height: 42%;
+        background-color: #f5c506;
+        opacity: 0.65;
+        position: relative;
+        z-index: 1;
+    }
+    .examples_layer h1 {
+        display: none;
+    }
+    .examples_box_layer {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    .examples_img_box {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .example_text {
+        width: 47%;
+        height: 90%;
+        background-image: url(../assets/Layer_22.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .example_video {
+        width: 43%;
+        height: 90%;
+        background-image: url(../assets/Layer_25.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .example_bird {
+        width: 100%;
+        height: 100%;
+        background-image: url(../assets/Layer_22.png);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: initial;
+    }
+    .bird {
+        position: relative;
+        left: 37px;
+    }
+    .date {
+        display: none;
+    }
+    .rounded {
+        display: none;
+    }
+    .massages {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 212px;
+        align-self: self-start;
+        position: relative;
+        top: 25px;
+    }
+    .massage_1 {
+        width: 284px;
+        height: 42px;
+        background-image: url(../assets/Rounded_Rectangle_2.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+    }
+    .massage_2 {
+        width: 284px;
+        height: 42px;
+        background-image: url(../assets/Rounded_Rectangle_2.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.7;
+    }
+    .massage_3 {
+        width: 284px;
+        height: 42px;
+        background-image: url(../assets/Rounded_Rectangle_2.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.6;
+    }
+    .massages p {
+        width: 80%;
+        color: #8f8e8e;
+        font-family: "Arial MT";
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 0.13px;
+        margin: 0px;
+    }
+    .example_bird form {
+        display: flex;
+        align-items: center;
+    }
+    .input_text {
+        width: 77%;
+        height: 29px;
+        box-shadow: inset 3px 4px 5px rgba(0, 0, 0, 0.11);
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        background-color: #ffffff;
+        border-radius: 50px 0px 0px 50px;
+    }
+    .input_submit {
+        width: 23%;
+        height: 33px;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.16) 0%, rgba(255, 255, 255, 0.16) 100%);
+        border-radius: 0px 50px 50px 0px;
+        border: none;
+        background-color: #f5c506;
+        color: #ffffff;
+        font-family: "Arial MT";
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 0.15px;
+    }
+    .example_bird  h3 {
+        display: none;
+    }
+    .example_bird_plus {
+        display: none;
+    }
+}
