@@ -1,0 +1,82 @@
+.possibilities {
+    width: 1300px;
+    height: 500px;
+    background-image: url(../assets/Layer_32.png);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.possibilities h1 {
+    color: #f5c506;
+    font-family: "PT Sans";
+    font-size: 43px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.43px;
+    margin: 0px;
+}
+.possibilities_example {
+    width: 80%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.possibilities_example_img {
+    width: 64%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img_free {
+    width: 116px;
+    height: 116px;
+    background-color: #f5c506;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    left: 113px;
+    bottom: 110px;
+}
+.phone {
+    position: relative;
+    top: 55px;
+}
+.comp {
+    position: relative;
+    z-index: 1;
+}
+.img_free p {
+    color: #ffffff;
+    font-family: "PT Sans - Narrow Bold";
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.21px;
+    margin: 0px;
+}
+.possibilities_list {
+width: 27%;
+margin: 0px;
+}
+.possibilities_list li {
+    color: #f5c506;
+    font-size: 40px;
+}
+.possibilities_list li span {
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
