@@ -1,0 +1,177 @@
+.examples {
+    width: 1300px;
+    height: 510px;
+    margin: 0 auto;
+    background-image: url(../assets/Layer_3.png);
+}
+.examples_layer_orange {
+    width: 100%;
+    height: 100%;
+    background-color: #f5c506;
+    opacity: 0.65;
+    position: relative;
+    z-index: 1;
+}
+.examples_layer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 10;
+    bottom: 511px;
+}
+
+.examples_box_layer {
+    width: 80%;
+    height: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+.examples_layer h1 {
+    width: 580px;
+    height: 40px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-size: 37px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.37px;
+    margin: 0px;
+    position: relative;
+    right: 206px;
+    top: 10px;
+}
+.examples_img_box {
+    width: 61%;
+    height: 100%;
+    display: flex;
+}
+.example_text {
+    width: 52%;
+    height: 100%;
+    background-image: url(../assets/Layer_22.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.example_text p {
+    width: 86%;
+    height: 62%;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 38px;
+    letter-spacing: 0.29px;
+    margin: 0px;
+}
+.example_text img {
+    position: relative;
+    left: 140px;
+    top: 25px;
+}
+.example_video {
+    width: 48%;
+    height: 100%;
+    background-image: url(../assets/Layer_25.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.example_video_button {
+    width: 67px;
+    height: 67px;
+    background-color: #f5c506;
+    opacity: 0.72;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.example_bird {
+    width: 30%;
+    height: 100%;
+    background-image: url(../assets/Layer_22.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.example_bird  h3 {
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.37px;
+    margin: 0px;
+    display: flex;
+    align-self: flex-end;
+    position: relative;
+    right: 4px;
+}
+.example_bird_plus {
+    display: flex;
+    align-self: flex-end;
+    position: relative;
+    right: 15px;
+    bottom: 5px;
+}
+.date {
+    width: 113px;
+    height: 86px;
+    background-image: url(../assets/Layer_22.png);
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 35px;
+    right: 440px;
+
+}
+.date h3 {
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.51px;
+    margin: 0px;
+}
+.date h4 {
+    color: #b26529;
+    font-family: "Segoe UI";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 0.21px;
+    margin: 0px;
+}
+.rounded {
+    width: 65%;
+    height: 15px;
+    background-color: #ffffff;
+    opacity: 0.48;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.rounded_in_procces {
+    width: 197px;
+    height: 15px;
+    background-color: #ec9e03;
+    border-radius: 50px;
+    position: relative;
+    right: 56px;
+}
